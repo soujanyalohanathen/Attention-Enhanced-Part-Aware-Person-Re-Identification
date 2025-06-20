@@ -26,13 +26,13 @@ All components work together to enhance identity discrimination and suppress dup
 ## 📂 Project Structure
 
 ```bash
-attention-part-aware-reid/
-├── market/                   # Market-1501 dataset
-├── reid.py                   # Training entry point
-├── reid_visual_inference.py  # Query image inference
-├── real.py                   # Real-time video inference
-├── best_model.pth            # Saved model weights
-└── README.md                 # You are here 
+attention-part-aware-reid/<br>
+&nbsp; &nbsp;├── market/                   # Market-1501 dataset<br>
+&nbsp; &nbsp;├── reid.py                   # Training entry point<br>
+&nbsp; &nbsp;├── reid_visual_inference.py  # Query image inference<br>
+&nbsp; &nbsp;├── real.py                   # Real-time video inference<br>
+&nbsp; &nbsp;├── best_model.pth            # Saved model weights<br>
+&nbsp; &nbsp;└── README.md                 # You are here<br>
 ```
 
 ## 🚀 Getting Started
@@ -58,10 +58,10 @@ Download the Market-1501 dataset their official page.
 
 Extract it and place it inside the datasets/ folder like this:
 
-market/
-├── bounding_box_train/
-    ├── query/
-    └── bounding_box_test/
+market/<br>
+├── bounding_box_train/<br>
+&nbsp; &nbsp;    ├── query/<br>
+&nbsp; &nbsp;    └── bounding_box_test/<br>
 
 ### 🏋️‍♀️ 4. Train and Evaluate the Model
 You can enable/disable components using flags:
@@ -71,9 +71,9 @@ python main.py --use_ca --use_sa --use_pp --use_tr --use_tri
 ```
 This will:
 
-&nbsp; &nbsp; Enable channel and spatial attention
-&nbsp; &nbsp; Apply part pooling and Transformer
-&nbsp; &nbsp; Use both Cross-Entropy and Triplet Loss
+&nbsp; &nbsp; Enable channel and spatial attention<br>
+&nbsp; &nbsp; Apply part pooling and Transformer<br>
+&nbsp; &nbsp; Use both Cross-Entropy and Triplet Loss<br>
 
 ### 🔍 6. Run Inference on a Query Image
 
@@ -82,6 +82,6 @@ python inference.py --img_path path/to/query.jpg
 ```
 This script will:
 
-&nbsp; &nbsp; Extract features from the image
-&nbsp; &nbsp; Compare it with the gallery
-&nbsp; &nbsp; Output the top retrieved results
+&nbsp; &nbsp; Extract features from the image<br>
+&nbsp; &nbsp; Compare it with the gallery<br>
+&nbsp; &nbsp; Output the top retrieved results<br>
