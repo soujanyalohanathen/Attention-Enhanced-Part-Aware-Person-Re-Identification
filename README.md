@@ -27,12 +27,12 @@ All components work together to enhance identity discrimination and suppress dup
 
 ```bash
 attention-part-aware-reid/<br>
-&nbsp; &nbsp;├── market/                   # Market-1501 dataset<br>
-&nbsp; &nbsp;├── reid.py                   # Training entry point<br>
-&nbsp; &nbsp;├── reid_visual_inference.py  # Query image inference<br>
-&nbsp; &nbsp;├── real.py                   # Real-time video inference<br>
-&nbsp; &nbsp;├── best_model.pth            # Saved model weights<br>
-&nbsp; &nbsp;└── README.md                 # You are here<br>
+├── market/                   # Market-1501 dataset<br>
+├── reid.py                   # Training entry point<br>
+├── reid_visual_inference.py  # Query image inference<br>
+├── real.py                   # Real-time video inference<br>
+├── best_model.pth            # Saved model weights<br>
+└── README.md                 # You are here<br>
 ```
 
 ## 🚀 Getting Started
