@@ -71,9 +71,9 @@ python main.py --use_ca --use_sa --use_pp --use_tr --use_tri
 ```
 This will:
 
-&nbsp &nbsp Enable channel and spatial attention
-&nbsp &nbsp Apply part pooling and Transformer
-&nbsp &nbsp Use both Cross-Entropy and Triplet Loss
+<&nbsp> <&nbsp> Enable channel and spatial attention
+<&nbsp> <&nbsp> Apply part pooling and Transformer
+<&nbsp> <&nbsp> Use both Cross-Entropy and Triplet Loss
 
 ### 🔍 6. Run Inference on a Query Image
 
@@ -82,6 +82,6 @@ python inference.py --img_path path/to/query.jpg
 ```
 This script will:
 
-&nbsp &nbsp Extract features from the image
-&nbsp &nbsp Compare it with the gallery
-&nbsp &nbsp Output the top retrieved results
+<&nbsp> <&nbsp> Extract features from the image
+<&nbsp> <&nbsp> Compare it with the gallery
+<&nbsp> <&nbsp> Output the top retrieved results
