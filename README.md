@@ -1,6 +1,6 @@
 # 🚶‍♀️ Attention-Enhanced Part-Aware Person Re-Identification 🔍
 
-Welcome to the official implementation of the research project **"Attention-Enhanced Part-Aware Person Re-Identification"**, developed as part of my undergraduate thesis at the University of Moratuwa. This project explores an attention-based architecture to improve person detection consistency across video frames.
+This is the implementation of the research project **"Attention-Enhanced Part-Aware Person Re-Identification"**, developed for my Masters' Thesis at the University of Moratuwa. This project explores an attention-based architecture to improve person detection consistency across video frames.
 
 ---
 
