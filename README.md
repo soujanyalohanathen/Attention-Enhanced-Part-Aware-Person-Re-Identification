@@ -26,7 +26,7 @@ All components work together to enhance identity discrimination and suppress dup
 ## 📂 Project Structure
 
 ```bash
-attention-part-aware-reid/<br>
+attention-part-aware-reid/
 ├── market/                   # Market-1501 dataset<br>
 ├── reid.py                   # Training entry point<br>
 ├── reid_visual_inference.py  # Query image inference<br>
